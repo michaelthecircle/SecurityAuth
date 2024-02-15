@@ -1,0 +1,15 @@
+version: "3.9"
+services:
+  postgres:
+    image: postgres:13.3
+    environment:
+      POSTGRES_DB: "dbase"
+      POSTGRES_USER: "mihuil"
+      POSTGRES_PASSWORD: "supermihuil"
+    volumes:
+      - /Users/admin/Downloads/spring/src/main/resources/db/docker-entrypoint-initdb.d
+    ports:
+      - "5432:5432"
+    labels:
+      - "PostgreSQL Container"
+
