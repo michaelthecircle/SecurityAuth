@@ -1,1 +1,2 @@
-Репозиторий создан для изучения JWT аутентификации Spring с применением PostgreSQL для хранения данных о пользователе (кодирование пароля - BCryptPasswordEncoder)
+# Sptring Security Jwt Application
+JWT аутентификация Spring с применением PostgreSQL для хранения данных о пользователе (кодирование пароля - BCryptPasswordEncoder)
