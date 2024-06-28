@@ -1,0 +1,23 @@
+server:
+  port: 8189
+  servlet:
+    context-path: /demo
+jwt:
+  secret: 238971381dh12h123bc1n23c1d1md31mxdf
+  lifetime: 30m
+spring:
+  jpa:
+    database: POSTGRESQL
+    show-sql: true
+    hibernate:
+      ddl-auto: create-drop
+  datasource:
+    url: jdbc:postgresql://localhost:5432/postgres
+    username: mihuil
+    password: supermihuil
+    driverClassName: org.postgresql.Driver
+  sql:
+    init:
+      platform: postgres
+  flyway:
+    baselineOnMigrate: true
